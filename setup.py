@@ -38,7 +38,7 @@ setup(
     ],
     include_package_data=True,
     classifiers=[
-        'Development Status :: 0',
+        'Development Status :: 1 - Planning',
         'Environment :: Web Environment',
         'Framework :: Django',
         'Intended Audience :: Developers',
