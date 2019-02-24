@@ -56,6 +56,7 @@ class WikidataEntityField(models.CharField):
 
     def __init__(self, *args, **kwargs):
         kwargs.setdefault('max_length', 50)
+        kwargs.setdefault('default', '')
         super().__init__(*args, **kwargs)
         self.validators = []  # FIXME: validate length of QID
 
